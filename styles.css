@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+.navbar{
+    background-color: #94674D !important;
+}
+
+body{
+    background-color:#FFE0B1 !important ;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+
+  .box {
+    width: calc(33.33% - 10px); /* Her satırda 3 kutu olacak şekilde hesaplama */
+    height: 80px;
+    background-color: #94674D;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+p,a{
+    font-family: "JetBrains Mono" !important;
+}
+
+.kutuyazı{
+
+    text-decoration: none;
+    text-align: center;
+    
+  
+}
+a.kutuyazı{
+    position: relative;
+    top:25px ;
+    color: white;
+}
+
+.sahne{
+    width:900px;
+    height: 800px;
+    background-color: white;
+    margin:auto;
+    margin-top:50px ;
+}
+
+.oyunad{
+    margin-top: 20px;
+    text-align: center;
+}
+.start{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.sahne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+}
+
+
+
+/*
+
+
+    BENZER KELİMELER OYUNU CSS BAŞLANGIÇ
+
+
+*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+
+.kelimekutu {
+    width: calc(33.33% - 10px); /* Her satırda 3 kutu olacak şekilde hesaplama */
+    height: 80px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+
+@media screen and (max-width: 992px) {
+    .sahne{
+        width: 400px;
+
+    }
+    .dikey{
+        width: 200px;
+    }
+  }
+  
+  
